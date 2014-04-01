@@ -1,0 +1,1 @@
+!function(){window.Portfolio=Ember.Application.create()}(),function(){Portfolio.ApplicationAdapter=DS.FixtureAdapter}(),function(){Portfolio.ApplicationRoute=Ember.Route.extend({model:function(){return["education","portfolio","skills"]}})}(),function(){Portfolio.Router.map(function(){this.route("education")})}();
